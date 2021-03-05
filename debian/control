@@ -5,10 +5,12 @@ Maintainer: Greg Albrecht <oss@undef.net>
 Uploaders: Daniel Leidert <dleidert@debian.org>
 Build-Depends: debhelper-compat (= 12),
                dh-python,
+               python3-aiohttp,
                python3-all,
                python3-asyncio-dgram,
                python3-pycot,
-               python3-setuptools
+               python3-setuptools,
+               python3-websockets
 Standards-Version: 4.5.1
 Homepage: https://github.com/ampledata/pytak
 Vcs-Browser: https://github.com/ampledata/pytak
